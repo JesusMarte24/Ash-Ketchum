@@ -68,3 +68,50 @@ body header nav ol a{
 .Link-Historia{
   margin-right: 20px;
 }
+
+.Abajo{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.parrafo_emoji{
+  color: white ;
+  font-size: 15px;
+  margin: 16px 0px;
+  vertical-align: center;
+}
+
+.Abajo a{
+  text-decoration: none;
+  color: aqua;
+}
+
+.Abajo p{
+  color: white;
+  padding: none;
+  margin-bottom: 16px;
+}
+
+.designer{
+  margin-right: 30px;
+}
+
+.parrafo_emoji{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+.Abajo img{
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
