@@ -19,10 +19,30 @@
 #logros */
 .Arriba{
   background: black;
-  height: 150px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Hero{
+  display: flex;
+  background-color: black;
+  margin: none;
+  padding: none;
+  justify-content: space-between;
+}
+
+body section h1{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+body section h1 strong{
+  color: aqua;
 }
 
 body{
@@ -42,7 +62,11 @@ h6{
 body header nav ol a{
  text-decoration: none;
  list-style: none;
- font-size: 17px;
+ font-size: 15px;
+}
+
+body header div img{
+  margin-left: 15px;
 }
 
 h1{
@@ -79,7 +103,7 @@ body header nav ol a{
 
 .parrafo_emoji{
   color: white ;
-  font-size: 15px;
+  font-size: 13px;
   margin: 16px 0px;
   vertical-align: center;
 }
@@ -91,7 +115,6 @@ body header nav ol a{
 
 .Abajo p{
   color: white;
-  padding: none;
   margin-bottom: 16px;
 }
 
@@ -107,6 +130,16 @@ body header nav ol a{
 
 .Abajo img{
   vertical-align: middle;
+}
+
+footer p a{
+  font-size: 13px;
+  
+}
+
+footer .diseno{
+  font-size: 14px;
+  margin-right: 25px;
 }
 
 
