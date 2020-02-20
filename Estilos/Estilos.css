@@ -17,6 +17,32 @@
 
 /* Selector de ID #logros
 #logros */
+
+
+.Reliquias-t{
+  display: block;
+  padding: 15px;
+ }
+
+ .Contenedor-P{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 50px 0px 50px 0px;
+   -moz-border-radius: 50px 0px 50px 0px;
+   -webkit-border-radius: 50px 0px 50px 0px;
+   border: 2px solid #000000;
+   -webkit-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
+   -moz-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
+   box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
+   background-color: #e9ebee;
+ }
+
+
+.Cuerpo{
+  width: 1150px;
+  margin: 0 auto;
+}
+
 .Arriba{
   background: black;
   height: 90px;
@@ -34,12 +60,15 @@
 }
 
 body section h1{
-  margin: 0px;
-  padding: 0px;
+ vertical-align: middle;
+ margin-left: 25px;
+ padding-top: 50px;
   color: white;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  margin-top: 60px;
 }
+
 
 body section h1 strong{
   color: aqua;
@@ -77,13 +106,10 @@ body h3{
   line-height: 0px;
 }
 
-
-
 body header nav ol a{
   color: white;
   
 }
-
 
 .Menu ol{
   display: flex;
@@ -141,6 +167,26 @@ footer .diseno{
   font-size: 14px;
   margin-right: 25px;
 }
+
+.IP{
+  padding: 20px;
+  margin-top: 4px;
+}
+
+.Linea{
+  border: 0; height: 6px; box-shadow: inset 0 12px 12px -12px aqua;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Logros{
+ margin: 0px;
+ padding: 0px;
+}
+
+
+
+
 
 
 
