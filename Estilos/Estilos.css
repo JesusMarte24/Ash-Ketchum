@@ -19,7 +19,7 @@
 #logros */
 
 html{
-  background-color: #e9ebee ;
+  background-color: white;
 }
 
 .Reliquias-t{
@@ -32,8 +32,8 @@ html{
    -webkit-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
    -moz-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
    box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
-   background-color: white;
-   width: 340px;
+   background-color: #E1F1F5;
+   width: 290px;
    border-radius: 10px;
    overflow: hidden;
  }
@@ -42,21 +42,23 @@ html{
    margin: 0;
    padding: 0;
  }
- .T-D{
-  text-align: center; 
-  margin-top: -75px;
-  padding-top: -20;
-  position: relative;
-  background-color: white;
-}
 
  .Parrafo-GG{
-   margin: 15px;
+   margin-top: -33px;
+   margin-bottom: 15px;
+   margin-right: 15px;
+   margin-left: 15px;
    padding: 7px;
    text-align: left ;
    position: relative;
    background-color: white;
- }
+   font-family: 'Noto Sans', Sans-serif;
+   color: #868686;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+  }
 
  #dora{
    object-fit: cover;
@@ -64,6 +66,19 @@ html{
    padding: 0;
  }
 
+ #Lib{
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+ }
+
+ #anilloo{
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+ }
 
 .Cuerpo{
   width: 1150px;
@@ -209,6 +224,38 @@ footer .diseno{
 .Logros{
  margin: 0px;
  padding: 0px;
+}
+
+.T-D{
+  margin-top: -70px;
+  position: absolute;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 260px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.eldorado{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Noto Sans', Sans-serif;
+}
+
+.eldiario{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Noto Sans', Sans-serif;
+}
+
+.Organizar{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
