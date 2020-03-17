@@ -20,6 +20,7 @@
 
 html{
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 .Reliquias-t{
@@ -27,12 +28,54 @@ html{
   padding: 15px;
  }
 
+ #Experiencias{
+   display: block;
+   padding: 10px;
+   margin-top: 15px;
+ }
+
+ #Edge{
+  display: block;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+#Places{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#Lib-HR{
+  border: 1px solid black; border-radius: 300px/10px; height: 0px; text-align: center; width: 500px;
+}
+
+#Eldiv{
+  display: flex;
+  width: 500px;
+  margin-top: 20px;
+  border: solid black;
+  margin-left: 322px;
+}
+
+#I-Libertalia{
+  justify-content: center;
+  object-fit: cover;
+}
+
+#Div2{
+  margin-top: 25px;
+}
+
+.Place-HR{
+  border: 1px solid black; border-radius: 300px/10px; height: 0px; text-align: center;
+}
+
  .Contenedor-P{
    border: 2px solid #000000;
-   -webkit-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
-   -moz-box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
-   box-shadow: -6px 9px 19px -2px rgba(16,12,69,1);
-   background-color: #E1F1F5;
+   -webkit-box-shadow: -2px 4px 19px -2px rgba(16,12,69,1);
+   -moz-box-shadow: -2px 4px 19px -2px rgba(16,12,69,1);
+   box-shadow: -2px 4px 19px -2px rgba(16,12,69,1);
+   background-color: #E9E5E1;
    width: 290px;
    border-radius: 10px;
    overflow: hidden;
@@ -102,9 +145,9 @@ html{
 }
 
 body section h1{
- vertical-align: middle;
- margin-left: 25px;
- padding-top: 50px;
+  vertical-align: middle;
+  margin-left: 25px;
+  padding-top: 50px;
   color: white;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -121,13 +164,8 @@ body{
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-  font-family: 'Noto Sans', Sans-serif;
+h1, h2, h3, h4, h5, h6{
+font-family: 'Noto Sans', Sans-serif;
 }
 
 body header nav ol a{
@@ -242,24 +280,135 @@ footer .diseno{
 .eldorado{
   color: black;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: 'Noto Sans', Sans-serif;
 }
 
 .eldiario{
   color: black;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: 'Noto Sans', Sans-serif;
 }
 
-.Organizar{
+.Organize{
   display: flex;
   justify-content: space-evenly;
+  padding: 40px;
+  -webkit-box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+  -moz-box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+  box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+}
+
+.Experiencia-a{
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  -moz-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  background-color: white;
+  border: solid black;
+}
+
+.Experiencia-b{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  -webkit-box-shadow: inset 1px -1px 11px 0px rgb(53, 51, 70);
+  -moz-box-shadow: inset 1px -1px 11px 0px rgba(53,51,70);
+  box-shadow: inset 1px -1px 11px 0px rgba(53,51,70);
+  margin-top: 15px;
+  border: solid black;
+}
+
+.square{
+  padding: 15px;
+  align-items: center;
 }
 
 
+#Pelee{
+  padding: 10px 10px 5px 10px;
+  align-items: center;
+}
 
+#Pelea{
+  display: inline;
+  margin: 15 10 20 auto;
+  font-family: 'Work Sans', Sans-serif;
+}
+
+#Tactics{
+  margin: 15px;
+  padding-bottom: 10px;
+}
+
+#T-Climbing{
+  margin: 15px 15px 15px 5px;
+  padding-top: 10px;
+  padding-left: 7px;
+}
+
+#Climbing-I{
+  object-fit: cover;
+}
+
+#Pelea-I{
+  object-fit: cover;
+}
+
+#Historia-N{
+  border: double black;
+  width: 380px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: whitesmoke;
+  height: auto;
+}
+
+#Historia-D{
+  border: double black;
+  width: 380px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: whitesmoke;
+  height: auto;
+}
+
+#Historia-P{
+  display: flex;
+  width: 350px;
+  text-align: justify;
+  padding: 8px;
+  margin: 5px;
+  height: auto;
+}
+
+#Historia-I{
+  display: block;
+  width: 405px;
+}
+
+#Historia-I-D{
+ display: block;
+ width: 405;
+ height: 250px;
+}
+
+#Imagen-H{
+  object-fit: cover;
+  position: relative;
+}
+
+.Historia-A{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
+#Historia-Orden{
+  margin: 35px auto 35px auto;
+}
 
 
 
