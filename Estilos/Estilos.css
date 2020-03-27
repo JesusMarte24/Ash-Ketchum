@@ -134,6 +134,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .Hero{
@@ -408,6 +409,55 @@ footer .diseno{
 
 #Historia-Orden{
   margin: 35px auto 35px auto;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+.Hero{
+  display: inline-block;
+}
+.Arriba{
+  height: auto;
+  display: block;
+}
+.FIP{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+ .Cuerpo{
+   width: 100%;
+ }
+ .Menu ol{
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 40px;
+   margin-bottom: 0px;
+   
+ }
+  ul a {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .Link-Historia{
+    margin-right: 90px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .Hero{
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Hero{
+    display: inline-block;
+  }
 }
 
 
