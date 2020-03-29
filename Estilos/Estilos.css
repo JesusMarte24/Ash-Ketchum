@@ -447,6 +447,7 @@ footer .diseno{
 
  .Organize{
    justify-content: space-between ;
+   padding: 15px;
  }
  .Contenedor-P{
  border: 1px solid transparent;
@@ -455,8 +456,11 @@ footer .diseno{
 
  .T-D{
    width: 23.9%;
-   display: flex;
-   justify-content: center;
+   position: relative;
+   top: -33px;
+   z-index: 1;
+   width: auto;
+   border: 1px solid transparent;
  }
 
 .Arriba{
