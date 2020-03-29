@@ -415,9 +415,50 @@ footer .diseno{
 }
 
 @media screen and (max-width: 768px) {
+
 .Hero{
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  height: 410px;
+  width: 100%;
 }
+ .Uncharted-d{
+   position: relative;
+   width: inherit;
+   height: inherit;
+   z-index: 1;
+ }
+ .Reliquias-t{
+   text-align: center;
+   -webkit-box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+   -moz-box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+   box-shadow: inset 0px 2px 29px 0px rgba(153,118,118,1);
+   border-top: 2px solid transparent;
+   border-bottom: 2px solid transparent;
+ }
+ body section h1{
+   margin: auto;
+   padding-top: 0px;
+   position: absolute;
+   left: 20px;
+   top: 485px;
+   z-index: 2;
+ }
+
+ .Organize{
+   justify-content: space-between ;
+ }
+ .Contenedor-P{
+ border: 1px solid transparent;
+ width: 31%;
+ }
+
+ .T-D{
+   width: 23.9%;
+   display: flex;
+   justify-content: center;
+ }
+
 .Arriba{
   height: auto;
   display: block;
