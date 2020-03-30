@@ -416,6 +416,11 @@ footer .diseno{
 
 @media screen and (max-width: 768px) {
 
+.Parrafo-GG{
+  margin-right: 0px;
+  margin-left: -1px;
+}
+
 .Hero{
   display: flex;
   align-items: center;
@@ -452,12 +457,14 @@ footer .diseno{
  .Contenedor-P{
  border: 1px solid transparent;
  width: 31%;
+ padding: 0px;
  }
 
  .T-D{
    width: 23.9%;
    position: relative;
-   top: -33px;
+   top: -32px;
+   left: -15px;
    z-index: 1;
    width: auto;
    border: 1px solid transparent;
