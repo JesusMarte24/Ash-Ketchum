@@ -416,6 +416,72 @@ footer .diseno{
 
 @media screen and (max-width: 768px) {
 
+.Historia-A{
+  flex-wrap: wrap;
+  -webkit-box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+  -moz-box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+  box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+  border-bottom: 1px solid transparent;
+}
+
+.Historia{
+  -webkit-box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+  -moz-box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+   box-shadow: inset -1px -1px 13px -3px rgba(10,16,130,1);
+   display: inline-block;
+   border-bottom: 1px solid transparent;
+}
+#Experiencias{
+  text-align: center;
+  -webkit-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  -moz-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  border-bottom: 1px solid transparent;
+}
+
+.Exploraciones{
+  -webkit-box-shadow: inset -1px -1px 13px -3px rgba(148,118,148,1);
+-moz-box-shadow: inset -1px -1px 13px -3px rgba(148,118,148,1);
+box-shadow: inset -1px -1px 13px -3px rgba(148,118,148,1);
+}
+#Experience{
+  -webkit-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  -moz-box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  box-shadow: inset -1px 1px 11px 0px rgba(53,51,70);
+  border-bottom: 1px solid transparent;
+}
+.Experiencia-a{
+  align-items: center;
+  border: 1px solid transparent;
+}
+.Experiencia-b{
+  align-items: center;
+  border: 1px solid transparent;
+}
+#Places{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1;
+}
+
+#Eldiv{
+ align-items: center;
+ margin-left: auto;
+ flex-wrap: wrap;
+ width: initial;
+ flex-direction: column;
+ border: 1px solid transparent;
+ margin: auto;
+ margin-top: 8px;
+ flex: 1 1;
+}
+
+.Exploraciones-a{
+display: flex;
+flex-wrap: wrap;
+}
+
 .Parrafo-GG{
   margin-right: 0px;
   margin-left: -1px;
@@ -426,6 +492,7 @@ footer .diseno{
   align-items: center;
   height: 410px;
   width: 100%;
+  flex: 1 1;
 }
  .Uncharted-d{
    position: relative;
@@ -453,6 +520,7 @@ footer .diseno{
  .Organize{
    justify-content: space-between ;
    padding: 15px;
+   flex: 1 1;
  }
  .Contenedor-P{
  border: 1px solid transparent;
@@ -468,6 +536,9 @@ footer .diseno{
    z-index: 1;
    width: auto;
    border: 1px solid transparent;
+   display: flex;
+   flex: 1 1;
+   justify-content: center;
  }
 
 .Arriba{
@@ -487,6 +558,7 @@ footer .diseno{
    justify-content: space-evenly;
    padding-bottom: 40px;
    margin-bottom: 0px;
+   flex: 1 1;
    
  }
   ul a {
