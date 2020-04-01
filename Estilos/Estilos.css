@@ -453,11 +453,22 @@ box-shadow: inset -1px -1px 13px -3px rgba(148,118,148,1);
 .Experiencia-a{
   align-items: center;
   border: 1px solid transparent;
+  flex-wrap: wrap;
+
 }
 .Experiencia-b{
   align-items: center;
   border: 1px solid transparent;
+  flex-wrap: wrap;
 }
+#Tactics{
+  text-align: center;
+}
+
+#T-Climbing{
+text-align: center;
+}
+
 #Places{
   flex-wrap: wrap;
   justify-content: center;
